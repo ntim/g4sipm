@@ -1,0 +1,48 @@
+# Verbosity
+/g4sipm/verbose 0
+
+# Filter hits according to SiPM cell geometry.
+/g4sipm/filter/geometry 1
+
+# Filter hits according to photon detection efficiency (dicing).
+/g4sipm/filter/pde 1
+
+# Filter cell triggers according to recovery time (dicing).
+/g4sipm/filter/timing 1
+
+# Generate thermal noise.
+/g4sipm/noise/thermal 1
+
+# Let the SiPM have a mean of x thermal noise triggers per cell, before the signal photons come in,
+# to ensure it is in a valid state (like you have it in the laboratory).
+/g4sipm/noise/preThermal 3
+
+# Let the SiPM have a mean of x thermal noise triggers per cell after the signal photons.
+/g4sipm/noise/postThermal 1
+
+# Generate afterpulses.
+/g4sipm/noise/afterpulse 1
+
+# Generate crosstalk.
+/g4sipm/noise/crosstalk 1
+
+# The number of crosstalk neighbours (4, 8, 24, 48, 80, 120)
+/g4sipm/noise/crosstalkNeighbours 4
+
+# Generate noise although there has been not a single photon detected.
+/g4sipm/noise/ifNoSignal 1
+
+# Digitize hits to cell triggers.
+/g4sipm/digitize/hits 1
+
+# Digitize cell triggers to a voltage trace.
+/g4sipm/digitize/trace 1
+
+# Set minimum time stamp to be persisted (default from general particle source - 1000 ns).
+# /g4sipm/persist/tMin
+
+# Set maximum time stamp to be persisted (default from general particle source + 1000 ns).
+# /g4sipm/persist/tMax
+
+# Set to false if hits should not be persisted at all.
+# /g4sipm/persist/hits 1

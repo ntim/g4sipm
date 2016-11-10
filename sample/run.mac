@@ -1,0 +1,8 @@
+# Verbosity.
+/control/verbose 0
+/run/verbose 0
+/tracking/verbose 0
+
+# Generate events.
+/ps/nParticles 10000
+/run/beamOn 1

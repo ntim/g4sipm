@@ -1,0 +1,41 @@
+#
+# Verbosity
+/ps/verbose 0
+
+#
+# Polarization angle (negative values enable random polarization).
+/ps/polar -360 deg
+
+#
+# Particle energy range
+/ps/energy/eMin 3.5424049 eV # 350 nm
+/ps/energy/eMax 3.5424049 eV # 350 nm
+
+#
+# Particle source plane position.
+/ps/plane/pos 0 0 .01 mm
+
+#
+# The surface normal of the plane in which the primary particles will be created (default: 0 0 -1).
+# /ps/plane/surfaceNormal 0 0 -1
+
+#
+# Pitch of the rectangular plane.
+/ps/plane/a 1 mm
+/ps/plane/b 1 mm
+
+#
+# Angular distribution of the particle directions.
+/ps/angle/thetaMin 0 deg
+/ps/angle/thetaMax 0 deg
+/ps/angle/phiMin 0 deg
+/ps/angle/phiMax 0 deg
+
+#
+# Time range of particles.
+/ps/tMin 0 s
+/ps/tMax 1e4 ns 
+
+#
+# Number of particles.
+/ps/nParticles 100

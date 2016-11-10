@@ -1,0 +1,9 @@
+# Open visualization.
+/vis/scene/create
+/vis/open OGLIX
+
+# Apply settings.
+/control/execute vis-settings.mac
+
+# Run.
+/run/beamOn 1

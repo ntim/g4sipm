@@ -1,0 +1,35 @@
+# Basic set up of visualization.
+
+# Verbosity.
+/control/verbose 0
+/run/verbose 0
+/tracking/verbose 0
+
+# Create scene.
+/vis/viewer/set/background white
+/vis/viewer/flush
+/vis/scene/add/axes -.5 -.5 -0.3 1 mm
+/vis/viewer/set/viewpointThetaPhi 45 30 deg
+
+# Trajectory drawing.
+# /tracking/storeTrajectory 1
+# /vis/scene/add/trajectories #rich
+# /vis/modeling/trajectories/create/drawByCharge
+# /vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+# Draw trajectories at end of event, showing trajectory points as markers of size 3 pixels
+# /vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 3
+
+/vis/geometry/set/lineWidth all 0 2
+/vis/viewer/set/culling global
+
+# Enable drawing of soft edges.
+/vis/viewer/set/auxiliaryEdge true
+
+# Hit drawing.
+/vis/scene/add/hits
+
+# Accumulate events.
+/vis/scene/endOfEventAction accumulate
+
+# Refresh for run.
+/vis/viewer/refresh
