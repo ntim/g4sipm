@@ -3,14 +3,16 @@
 G4Sipm documentation
 ====================
 
-The purpose of the G4SiPM simulation package is the integration of a detailed SiPM simulation into Geant4 which is a framework widely used in particle physics for detector simulations.
+The purpose of the G4SiPM simulation package is the integration of a detailed SiPM simulation into Geant4 (https://github.com/Geant4/geant4) which is a framework widely used in particle physics for detector simulations.
+
+Further information can be found here: http://dx.doi.org/10.1016/j.nima.2015.01.067
 
 Documentation contents
 ======================
 
 .. toctree::
    :numbered:
-   :maxdepth: 3
+   :maxdepth: 4
    
    install
    sample

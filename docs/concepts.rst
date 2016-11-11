@@ -1,4 +1,4 @@
-.. G4Sipm concepts
+.. Concepts
 
 Concepts
 ========
@@ -6,8 +6,6 @@ Concepts
 This section describes the core concepts which have been used to build G4Sipm.
 
 .. toctree::
-   :numbered:
-   :maxdepth: 2
    
    properties_files
    g4sipm_model
