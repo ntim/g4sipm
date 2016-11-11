@@ -1,8 +1,9 @@
 /*
  * FastEffectiveCellsFiredDigitizer.hh
  *
- *  Created on: Jun 5, 2015
- *      Author: niggemann
+ * @date Jun 5, 2015
+ * @author Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @copyright GNU General Public License v3.0
  */
 
 #ifndef FASTEFFECTIVECELLSFIREDDIGITIZER_HH_

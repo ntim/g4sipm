@@ -1,8 +1,9 @@
 /*
  * HamamatsuS12573100C.cc
  *
- *  Created on: Apr 11, 2016
- *      Author: tim
+ * @date Apr 11, 2016
+ * @author Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @copyright GNU General Public License v3.0
  */
 
 #include "model/impl/HamamatsuS12573100C.hh"

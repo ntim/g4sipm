@@ -1,8 +1,9 @@
 /*
  * G4SipmEffectiveOvervoltageCellFireController.hh
  *
- *  Created on: Feb 17, 2014
- *      Author: Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @date Feb 17, 2014
+ * @author Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @copyright GNU General Public License v3.0
  */
 
 #ifndef G4SIPMEFFECTIVEOVERVOLTAGECELLFIRECONTROLLER_HH_

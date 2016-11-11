@@ -1,8 +1,9 @@
 /*
  * RandGeneralTest.hh
  *
- *  Created on: Sep 9, 2013
- *      Author: Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @date Sep 9, 2013
+ * @author Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @copyright GNU General Public License v3.0
  */
 
 #ifndef GENERALTEST_HH

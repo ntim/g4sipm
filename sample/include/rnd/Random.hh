@@ -1,8 +1,9 @@
 /*
  * Random.hh
  *
- *  Created on: 22.04.2015
- *      Author: tim
+ * @date 22.04.2015
+ * @author Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @copyright GNU General Public License v3.0
  */
 
 #ifndef RND_RANDOM_HH_
