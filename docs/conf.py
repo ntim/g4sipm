@@ -25,8 +25,8 @@ import sphinx_rtd_theme
 # Run doxygen first on RTD.
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
-    from subprocess import call 
-    call('doxygen')
+    import subprocess
+    subprocess.call('doxygen g4sipm.doxyfile', shell=True)
 
 
 # -- General configuration ------------------------------------------------
