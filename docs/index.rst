@@ -1,5 +1,11 @@
 .. G4Sipm documentation master file
 
+.. image:: ../g4sipm/resources/logo.png
+   :align: center
+   :width: 33%
+
+----------
+
 G4Sipm documentation
 ====================
 

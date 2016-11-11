@@ -2,7 +2,7 @@
  * Properties.cc
  *
  * @date Mar 16, 2012
- * @author Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @author Erik Dietz-Laursonn, Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
  * @copyright GNU General Public License v3.0
  */
 

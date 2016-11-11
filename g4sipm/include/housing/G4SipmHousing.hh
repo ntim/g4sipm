@@ -2,7 +2,7 @@
  * Housing.hh
  *
  * @date Mar 14, 2012
- * @author kuensken, Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
+ * @author Andreas Kuensken, Tim Niggemann, III Phys. Inst. A, RWTH Aachen University
  * @copyright GNU General Public License v3.0
  */
 
