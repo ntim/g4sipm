@@ -1,6 +1,6 @@
 # Welcome to G4SiPM
 
-![Docs](https://readthedocs.org/projects/g4sipm/badge/)
+[![Docs](https://readthedocs.org/projects/g4sipm/badge/)](http://g4sipm.readthedocs.io/en/latest/index.html)
 
 A Geant4 (https://github.com/Geant4/geant4) simulation toolkit for silicon photomultipliers (SiPMs).
 
