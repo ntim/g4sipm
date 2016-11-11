@@ -14,11 +14,11 @@ The code has been developed to
  
 Requirements
  * Geant4 (4.10 or newer, https://github.com/Geant4/geant4)
- * Boost (1.50.0 or newer)
+ * Boost (1.50.0 or newer, http://www.boost.org/)
 
 Optional
  * Sqlite3 (https://sqlite.org/)
- * ROOT (5.34 or newer, https://github.com/root-mirror/root)
+ * ROOT (5.34 or newer, https://root.cern.ch)
  
 The build process has been tested with Ubuntu 15.04 and Scientific Linux 6.
 
