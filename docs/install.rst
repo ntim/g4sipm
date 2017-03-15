@@ -70,7 +70,7 @@ Clone repository
 
 Clone the repository to a directory *source*::
 
-   $ git clone https://forge.physik.rwth-aachen.de/git/g4sipm.git source
+   $ git clone https://github.com/ntim/g4sipm.git
 
 Now, create a directory to configure and run the build and store the build products. This directory should **not** be the same as, or inside, the source directory. 
 In this guide, we create this build directory alongside our source directory::
