@@ -11,6 +11,7 @@
 #include <G4Gamma.hh>
 #include <G4Electron.hh>
 #include <G4Positron.hh>
+#include <G4Proton.hh>
 
 OpticalPhysicsList::OpticalPhysicsList(int verbose, std::vector<G4OpticalProcessIndex> deactivate) {
 	G4OpticalPhysics* phys = new G4OpticalPhysics(verbose);
@@ -32,6 +33,7 @@ void OpticalPhysicsList::ConstructParticle() {
 	G4Gamma::GammaDefinition();
 	G4Electron::ElectronDefinition();
 	G4Positron::PositronDefinition();
+	G4Proton::ProtonDefinition();
 }
 
 void OpticalPhysicsList::SetCuts() {
