@@ -79,7 +79,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
 	G4Box* world = new G4Box("world", worldDimension.x(), worldDimension.y(), worldDimension.z());
 	G4LogicalVolume* worldLv = new G4LogicalVolume(world, MaterialFactory::getInstance()->getAir(), "worldLv", NULL,
 	NULL, NULL);
-	worldLv->SetVisAttributes(G4VisAttributes::Invisible);
+	worldLv->SetVisAttributes(G4VisAttributes::GetInvisible());
 	G4VPhysicalVolume* worldPv = new G4PVPlacement(NULL, G4ThreeVector(), worldLv, "worldPv", NULL, false, 0);
 	// Set the entrance window surface of the SiPM to (0,0,0).
 	housing->setPosition(G4ThreeVector(0., 0., -housing->getDz() / 2.));
