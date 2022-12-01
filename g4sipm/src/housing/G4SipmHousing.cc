@@ -56,7 +56,7 @@ G4LogicalVolume* G4SipmHousing::build() {
 	// Create container.
 	G4Box* container = new G4Box("container", getDx() / 2., getDy() / 2., getDz() / 2.);
 	G4LogicalVolume * containerLv = new G4LogicalVolume(container, containerMaterial, "containerLv");
-	containerLv->SetVisAttributes(G4VisAttributes::Invisible);
+	containerLv->SetVisAttributes(G4VisAttributes::GetInvisible());
 	// Create the individual parts of the housing.
 	G4LogicalVolume* packageLv = buildPackage(containerLv);
 	buildWindow(packageLv);
